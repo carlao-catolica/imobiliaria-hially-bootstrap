@@ -1,0 +1,45 @@
+.detalhes-container {
+        margin-top: 40px;
+        margin-bottom: 50px;
+      }
+      .carousel-item {
+        height: 400px;
+        background-color: #f0f0f0;
+      }
+      .carousel-item img {
+        object-fit: cover;
+        height: 100%;
+      }
+      .preco-destaque {
+        font-size: 2.5em;
+        color: #0F2F67;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .info-box {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .info-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        border-bottom: 1px solid #dee2e6;
+      }
+      .info-item:last-child {
+        border-bottom: none;
+      }
+      .info-label {
+        font-weight: bold;
+        color: #0F2F67;
+      }
+      .btn-voltar {
+        margin-bottom: 20px;
+      }
+      .contact-sidebar {
+        position: relative;
+        top: 0;
+        height: 400px;
+      }

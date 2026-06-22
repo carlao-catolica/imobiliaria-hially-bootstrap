@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aluguel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cabecalho"></div>
+    <div class="container vendas my-4">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="imgs/casa_basica_1.png"
+              class="card-img-top"
+              alt="Estúdio aconchegante"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Estúdio Vila Esperança</h5>
+              <p class="card-text">
+                Estúdio compacto e iluminado, ideal para quem busca praticidade.
+                Próximo a metrô e com serviços delivery 24h. Condomínio com
+                lavanderia compartilhada.
+              </p>
+              <button class="btn btn-danger mt-auto" disabled>Alugado.</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="imgs/casa_basica_2.png"
+              class="card-img-top"
+              alt="Apartamento familiar"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Apartamento Jardim das Flores</h5>
+              <p class="card-text">
+                Apartamento de 2 quartos com varanda ensolarada, cozinha
+                planejada e vaga coberta. Bairro residencial, ideal para
+                famílias que buscam tranquilidade.
+              </p>
+              <button class="btn btn-danger mt-auto" disabled>Alugado.</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="imgs/casa_basica_3.png"
+              class="card-img-top"
+              alt="Casa_basica com quintal"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Casa basica do Bosque</h5>
+              <p class="card-text">
+                Casa basica térrea com quintal gramado, churrasqueira e espaço
+                pet-friendly. Rua tranquila e arborizada, perfeita para quem tem
+                animais de estimação.
+              </p>
+              <button class="btn btn-danger mt-auto" disabled>Alugado.</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="imgs/casa_basica_4.png"
+              class="card-img-top"
+              alt="Cobertura moderna"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Cobertura Panorama</h5>
+              <p class="card-text">
+                Cobertura com vista ampla, rooftop privativo e cozinha
+                americana. Perfeita para quem gosta de receber amigos e
+                aproveitar o pôr do sol.
+              </p>
+              <button class="btn btn-danger mt-auto" disabled>Alugado.</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="imgs/casa_basica_5.png"
+              class="card-img-top"
+              alt="Sobrado confortável"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Sobrado Vista Alegre</h5>
+              <p class="card-text">
+                Sobrado com 1 quarto, suíte e área de serviço. Localização com
+                comércio próximo e fácil acesso a vias principais.
+              </p>
+              <button class="btn btn-danger mt-auto" disabled>Alugado.</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="imgs/casa_basica_6.png"
+              class="card-img-top"
+              alt="Kitnet moderna"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Kitnet Centro Comercial</h5>
+              <p class="card-text">
+                Kitnet recém-reformada, mobiliada, com internet inclusa em
+                contrato. Ideal para profissionais que trabalham na região
+                central.
+              </p>
+              <button class="btn btn-danger mt-auto" disabled>Alugado.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      fetch("cabecalho.html")
+        .then((r) => r.text())
+        .then((html) => {
+          document.getElementById("cabecalho").innerHTML = html;
+        });
+    </script>
+  </body>
+</html>
